@@ -1,0 +1,41 @@
+#numPy 
+#pandas 
+#scipy 
+#seaborn 
+#matplotlib  
+import numpy 
+mport numpy as np 
+import seaborn as sns 
+from scipy import stats  
+
+len(a) 
+
+np.mean (a) 
+
+np.median(a) 
+
+type(stats.mode(a)[0]) 
+
+np.min(a) 
+
+np.max(a) 
+
+help(np.percentile) 
+
+q1=np.percentile(a,25) #Q1 
+
+q2= np.percentile(a,50)# Q2 
+
+q3= np.percentile(a,75) #Q3 
+
+stats.iqr(a) 
+
+np.var(a)#varianca 
+
+np.std(a) #standart sapma  varience 
+
+stats.skew(a)# negatif soldan çaplı
+
+
+
+
